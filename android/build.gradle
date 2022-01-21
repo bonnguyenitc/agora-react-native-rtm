@@ -127,7 +127,7 @@ def kotlin_version = getExtOrDefault('kotlinVersion')
 dependencies {
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
-  api 'com.github.agorabuilder:rtm-sdk:1.4.7'
+  api 'com.github.agorabuilder:rtm-sdk:1.4.8'
 
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
