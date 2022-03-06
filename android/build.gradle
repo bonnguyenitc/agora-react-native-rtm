@@ -54,7 +54,7 @@ android {
 repositories {
   mavenCentral()
   google()
-  maven { url 'https://www.jitpack.io' }
+  maven { url 'https://jitpack.io' }
 
   def found = false
   def defaultDir = null
@@ -127,7 +127,7 @@ def kotlin_version = getExtOrDefault('kotlinVersion')
 dependencies {
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
-  api 'com.github.agorabuilder:rtm-sdk:1.4.8'
+  api 'com.github.agorabuilder:rtm-sdk:1.4.10'
 
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
