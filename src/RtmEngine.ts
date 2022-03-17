@@ -401,6 +401,12 @@ export default class RtmEngine {
           callback(ret);
         });
         break;
+      case 'channelAttributesUpdated':
+        this.addListener('ChannelAttributesUpdated', (attributeList) => {
+          const ret = attributeList;
+          callback(ret);
+        });
+        break;
     }
   }
 
